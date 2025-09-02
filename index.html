@@ -1,0 +1,653 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>
+   Team Jaba
+  </title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link
+   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+   rel="stylesheet"
+  />
+  <style>
+   /* Custom gradient background to match the screenshot */
+   body {
+    background: radial-gradient(circle at center bottom, #001eff 0%, transparent 40%),
+      linear-gradient(45deg, #ff4a4a 0%, #fbbf59 100%);
+   }
+   /* Hide scrollbar for horizontal scroll */
+   .no-scrollbar::-webkit-scrollbar {
+    display: none;
+   }
+   .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+   }
+  </style>
+ </head>
+ <body class="min-h-screen flex flex-col">
+  <header
+   class="bg-white bg-opacity-20 backdrop-blur-md text-white py-4 px-4 sm:px-6 md:px-8 flex items-center justify-between select-none sticky top-0 z-30"
+  >
+   <div class="text-2xl font-semibold">Team jaba</div>
+   <nav>
+    <ul
+     class="flex flex-wrap justify-center gap-3 sm:gap-6 md:gap-8 text-white font-medium text-sm sm:text-base"
+    >
+     <li><a class="hover:underline" href="#hero">Home</a></li>
+     <li><a class="hover:underline" href="#artists">Artists</a></li>
+     <li><a class="hover:underline" href="#portfolio">Portfolio</a></li>
+     <li><a class="hover:underline" href="#gallery">Gallery</a></li>
+     <li><a class="hover:underline" href="#blog">Blog</a></li>
+     <li><a class="hover:underline" href="#contact">Contact</a></li>
+    </ul>
+   </nav>
+  </header>
+
+  <main class="flex-grow">
+   <section
+    id="hero"
+    class="relative text-center text-white px-4 sm:px-6 max-w-4xl mx-auto mb-8 select-none"
+   >
+    <img
+     alt="Abstract colorful artistic background with warm and cool tones"
+     class="absolute inset-0 w-full h-full object-cover rounded-lg opacity-60 -z-10"
+     height="400"
+     src="https://storage.googleapis.com/a1aa/image/7eec35d7-5a97-422a-9ee3-a5facfd31a34.jpg"
+     width="1200"
+    />
+    <div class="relative z-10 py-16 sm:py-20 px-2 sm:px-4">
+     <h1
+      class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4 leading-tight"
+     >
+      Discover the Best Jaba Baze
+     </h1>
+     <p class="text-sm sm:text-base md:text-lg lg:text-xl max-w-3xl mx-auto leading-relaxed">
+      Explore a curated selection of jaba baze  from around you. Get
+      inspired and find your next favorite jaba zone today.
+     </p>
+    </div>
+   </section>
+
+   <!-- Ads Section -->
+   <section
+    id="ads"
+    class="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 mb-12 select-none"
+    aria-label="Sponsored Ads"
+   >
+    <h2 class="text-white text-2xl sm:text-3xl font-bold mb-6 text-center">
+     Sponsored Ads
+    </h2>
+    <div class="relative overflow-hidden">
+     <div
+      id="ads-container"
+      class="flex space-x-4 sm:space-x-6 no-scrollbar transition-transform duration-700 ease-in-out"
+      style="will-change: transform;"
+     >
+      <a
+       class="min-w-[240px] sm:min-w-[280px] bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition flex-shrink-0"
+       href="#"
+      >
+       <img
+        alt="Ad 1: Modern art supplies with brushes and paints"
+        class="w-full h-36 sm:h-40 object-cover"
+        height="160"
+        src="https://storage.googleapis.com/a1aa/image/3bd8ed82-a9cc-4eb0-84f5-75da38628b9b.jpg"
+        width="280"
+       />
+       <div class="p-3 sm:p-4">
+        <h3 class="text-white font-semibold text-base sm:text-lg mb-1">
+         Modern Art Supplies
+        </h3>
+        <p class="text-white text-xs sm:text-sm">
+         Get the best brushes and paints for your masterpiece.
+        </p>
+       </div>
+      </a>
+      <a
+       class="min-w-[240px] sm:min-w-[280px] bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition flex-shrink-0"
+       href="#"
+      >
+       <img
+        alt="Ad 2: Online art classes with expert instructors"
+        class="w-full h-36 sm:h-40 object-cover"
+        height="160"
+        src="https://storage.googleapis.com/a1aa/image/65870c9d-c6b8-47f8-2c87-1e4457bde43b.jpg"
+        width="280"
+       />
+       <div class="p-3 sm:p-4">
+        <h3 class="text-white font-semibold text-base sm:text-lg mb-1">
+         Online Art Classes
+        </h3>
+        <p class="text-white text-xs sm:text-sm">
+         Learn from the comfort of your home with expert instructors.
+        </p>
+       </div>
+      </a>
+      <a
+       class="min-w-[240px] sm:min-w-[280px] bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition flex-shrink-0"
+       href="#"
+      >
+       <img
+        alt="Ad 3: Art gallery exhibition opening soon"
+        class="w-full h-36 sm:h-40 object-cover"
+        height="160"
+        src="https://storage.googleapis.com/a1aa/image/f0be2de7-4ba1-47a8-c9d0-c49d645d8d34.jpg"
+        width="280"
+       />
+       <div class="p-4">
+        <h3 class="text-white font-semibold text-base sm:text-lg mb-1">
+         Gallery Exhibition
+        </h3>
+        <p class="text-white text-xs sm:text-sm">
+         Join us for the grand opening of the new modern art gallery.
+        </p>
+       </div>
+      </a>
+     </div>
+    </div>
+   </section>
+
+   <section
+    id="artists"
+    class="flex justify-center mb-12 overflow-x-auto no-scrollbar px-2 sm:px-0"
+    aria-label="Artists"
+   >
+    <div class="flex space-x-4 sm:space-x-6 w-max justify-center">
+     <a
+      class="flex flex-col items-center bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 sm:p-5 w-24 sm:w-28 cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+      href="#"
+     >
+      <img
+       alt="Portrait of Artist 1, middle-aged man with dark hair and a beige scarf"
+       class="rounded-full w-20 h-20 sm:w-24 sm:h-24 object-cover mb-2 sm:mb-3"
+       height="120"
+       src="https://storage.googleapis.com/a1aa/image/edfa9858-0f88-4cff-907a-a6a78e67ba5b.jpg"
+       width="120"
+      />
+      <span class="text-white font-semibold text-xs sm:text-sm">Artist 1</span>
+     </a>
+     <a
+      class="flex flex-col items-center bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 sm:p-5 w-24 sm:w-28 cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+      href="#"
+     >
+      <img
+       alt="Portrait of Artist 2, elderly man with white hair and beard"
+       class="rounded-full w-20 h-20 sm:w-24 sm:h-24 object-cover mb-2 sm:mb-3"
+       height="120"
+       src="https://storage.googleapis.com/a1aa/image/3759d211-4cd7-4f1f-1854-86ffbd125d03.jpg"
+       width="120"
+      />
+      <span class="text-white font-semibold text-xs sm:text-sm">Artist 2</span>
+     </a>
+     <a
+      class="flex flex-col items-center bg-white bg-opacity-40 backdrop-blur-md rounded-lg p-4 sm:p-5 w-24 sm:w-28 cursor-pointer hover:bg-white hover:bg-opacity-50 transition"
+      href="#"
+     >
+      <img
+       alt="Portrait of Artist 3, older man with gray hair and glasses, yellow background"
+       class="rounded-full w-20 h-20 sm:w-24 sm:h-24 object-cover mb-2 sm:mb-3"
+       height="120"
+       src="https://storage.googleapis.com/a1aa/image/843337b1-52fa-479a-fd38-7f1c3e6ebcda.jpg"
+       width="120"
+      />
+      <span class="text-white font-semibold text-xs sm:text-sm">Artist 3</span>
+     </a>
+     <a
+      class="flex flex-col items-center bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 sm:p-5 w-24 sm:w-28 cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+      href="#"
+     >
+      <img
+       alt="Portrait of Artist 4, young man with dark hair and scarf, brown background"
+       class="rounded-full w-20 h-20 sm:w-24 sm:h-24 object-cover mb-2 sm:mb-3"
+       height="120"
+       src="https://storage.googleapis.com/a1aa/image/200b8683-b8aa-406f-2083-52ff4b84f746.jpg"
+       width="120"
+      />
+      <span class="text-white font-semibold text-xs sm:text-sm">Artist 4</span>
+     </a>
+     <a
+      class="flex flex-col items-center bg-white bg-opacity-20 backdrop-blur-md rounded-lg p-4 sm:p-5 w-24 sm:w-28 cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+      href="#"
+     >
+      <img
+       alt="Portrait of Artist 5, man with glasses and red headwrap, light background"
+       class="rounded-full w-20 h-20 sm:w-24 sm:h-24 object-cover mb-2 sm:mb-3"
+       height="120"
+       src="https://storage.googleapis.com/a1aa/image/dab292df-abb1-4ffe-9597-fe1498b2df38.jpg"
+       width="120"
+      />
+      <span class="text-white font-semibold text-xs sm:text-sm">Artist 5</span>
+     </a>
+    </div>
+   </section>
+
+   <!-- Portfolio Section -->
+   <section
+    id="portfolio"
+    class="mb-16 px-2 sm:px-0 max-w-7xl mx-auto"
+    aria-label="Portfolio"
+   >
+    <h2
+     class="text-white text-2xl sm:text-3xl font-bold mb-8 text-center select-none"
+    >
+     Portfolio
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-8">
+     <a
+      href="#"
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+     >
+      <img
+       src="https://storage.googleapis.com/a1aa/image/portfolio1.jpg"
+       alt="Portfolio piece: Modern abstract painting with vibrant colors"
+       class="w-full h-44 sm:h-48 object-cover"
+       width="400"
+       height="300"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">
+        Modern Abstract Painting
+       </h3>
+       <p class="text-white text-sm">
+        A vibrant and dynamic abstract painting showcasing bold colors and
+        shapes.
+       </p>
+      </div>
+     </a>
+     <a
+      href="#"
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+     >
+      <img
+       src="https://storage.googleapis.com/a1aa/image/portfolio2.jpg"
+       alt="Portfolio piece: Detailed pencil sketch of a cityscape"
+       class="w-full h-44 sm:h-48 object-cover"
+       width="400"
+       height="300"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">
+        Cityscape Pencil Sketch
+       </h3>
+       <p class="text-white text-sm">
+        A detailed pencil sketch capturing the intricate details of a city
+        skyline.
+       </p>
+      </div>
+     </a>
+     <a
+      href="#"
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+     >
+      <img
+       src="https://storage.googleapis.com/a1aa/image/portfolio3.jpg"
+       alt="Portfolio piece: Colorful impressionist landscape painting"
+       class="w-full h-44 sm:h-48 object-cover"
+       width="400"
+       height="300"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">
+        Impressionist Landscape
+       </h3>
+       <p class="text-white text-sm">
+        A colorful impressionist painting depicting a serene natural
+        landscape.
+       </p>
+      </div>
+     </a>
+    </div>
+   </section>
+
+   <section
+    id="gallery"
+    class="mb-16 px-2 sm:px-0 max-w-7xl mx-auto"
+    aria-label="Gallery"
+   >
+    <h2
+     class="text-white text-2xl sm:text-3xl font-bold mb-8 text-center select-none"
+    >
+     Gallery
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-8">
+     <a
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+      href="#"
+     >
+      <img
+       alt="Abstract colorful painting with vibrant brush strokes"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/8485735d-336e-4d2a-f86b-a1aab36f4872.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">Abstract Colors</h3>
+       <p class="text-white text-sm">
+        A vibrant abstract painting full of dynamic brush strokes and bright
+        colors.
+       </p>
+      </div>
+     </a>
+     <a
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+      href="#"
+     >
+      <img
+       alt="Black and white portrait sketch of a woman"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/41d4063d-b22c-49aa-b210-1de8af26559d.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">Portrait Sketch</h3>
+       <p class="text-white text-sm">
+        A detailed black and white sketch capturing the essence of a thoughtful
+        woman.
+       </p>
+      </div>
+     </a>
+     <a
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+      href="#"
+     >
+      <img
+       alt="Landscape painting of mountains during sunset"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/c34c1f50-6161-4151-6449-0f651eaedc84.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">Mountain Sunset</h3>
+       <p class="text-white text-sm">
+        A serene landscape painting showcasing mountains bathed in warm sunset
+        light.
+       </p>
+      </div>
+     </a>
+     <a
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+      href="#"
+     >
+      <img
+       alt="Modern geometric art with bold shapes and colors"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/77b2a106-9121-4539-3bee-9fde85b89bf2.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">Geometric Shapes</h3>
+       <p class="text-white text-sm">
+        Bold geometric shapes combined in a modern and colorful composition.
+       </p>
+      </div>
+     </a>
+     <a
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+      href="#"
+     >
+      <img
+       alt="Impressionist style painting of a flower garden"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/8bccbafe-d79b-47f0-9539-b3c4a0d060db.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">Flower Garden</h3>
+       <p class="text-white text-sm">
+        Impressionist painting capturing the vibrant colors of a blooming
+        garden.
+       </p>
+      </div>
+     </a>
+     <a
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition block"
+      href="#"
+     >
+      <img
+       alt="Surreal art piece with floating islands and dreamy sky"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/5594612e-b4f0-458a-dc74-2a560eea1efc.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-1">Surreal Islands</h3>
+       <p class="text-white text-sm">
+        A dreamy surreal artwork featuring floating islands in a mystical sky.
+       </p>
+      </div>
+     </a>
+    </div>
+   </section>
+
+   <section
+    id="blog"
+    class="mb-16 px-2 sm:px-0 max-w-7xl mx-auto"
+    aria-label="Blog"
+   >
+    <h2
+     class="text-white text-2xl sm:text-3xl font-bold mb-8 text-center select-none"
+    >
+     Blog
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
+     <article
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+     >
+      <img
+       alt="Painting workshop with artist teaching students"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/6ad30044-4814-4d40-8db4-d1182a01b88a.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-2">
+        Tips for Improving Your Painting Skills
+       </h3>
+       <p class="text-white text-sm">
+        Learn essential techniques and advice from professional artists to
+        enhance your painting abilities.
+       </p>
+      </div>
+     </article>
+     <article
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+     >
+      <img
+       alt="Artist's studio with canvases and brushes"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/9e44a671-5cd6-4cf0-c0ad-a0cf43dc874e.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-2">
+        Setting Up Your Creative Studio Space
+       </h3>
+       <p class="text-white text-sm">
+        Discover how to create an inspiring and functional workspace for your
+        artistic projects.
+       </p>
+      </div>
+     </article>
+     <article
+      class="bg-white bg-opacity-20 backdrop-blur-md rounded-lg overflow-hidden cursor-pointer hover:bg-white hover:bg-opacity-30 transition"
+     >
+      <img
+       alt="Color theory chart with paint swatches"
+       class="w-full h-44 sm:h-48 object-cover"
+       height="300"
+       src="https://storage.googleapis.com/a1aa/image/141d7297-8466-4c3b-a095-40e95b96d147.jpg"
+       width="400"
+      />
+      <div class="p-4">
+       <h3 class="text-white font-semibold text-lg mb-2">
+        Understanding Color Theory for Artists
+       </h3>
+       <p class="text-white text-sm">
+        A guide to mastering color combinations and harmonies to make your
+        artwork stand out.
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+  </main>
+
+  <section
+   id="contact"
+   class="bg-white bg-opacity-20 backdrop-blur-md text-white max-w-4xl mx-auto rounded-lg p-8 mb-12 select-none"
+   aria-label="Contact"
+  >
+   <h2 class="text-2xl sm:text-3xl font-bold mb-6 text-center">Contact Us</h2>
+   <form
+    id="contact-form"
+    class="max-w-xl mx-auto space-y-6"
+    action="https://formspree.io/f/mgebqzqv"
+    method="POST"
+   >
+    <div>
+     <label class="block mb-2 font-semibold" for="name">Name</label>
+     <input
+      class="w-full rounded-md bg-white bg-opacity-10 border border-white border-opacity-30 px-4 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+      id="name"
+      name="name"
+      placeholder="Your name"
+      required
+      type="text"
+     />
+    </div>
+    <div>
+     <label class="block mb-2 font-semibold" for="email">Email</label>
+     <input
+      class="w-full rounded-md bg-white bg-opacity-10 border border-white border-opacity-30 px-4 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+      id="email"
+      name="email"
+      placeholder="you@example.com"
+      required
+      type="email"
+     />
+    </div>
+    <div>
+     <label class="block mb-2 font-semibold" for="message">Message</label>
+     <textarea
+      class="w-full rounded-md bg-white bg-opacity-10 border border-white border-opacity-30 px-4 py-2 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+      id="message"
+      name="message"
+      placeholder="Your message"
+      required
+      rows="4"
+     ></textarea>
+    </div>
+    <div class="text-center">
+     <button
+      class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-md transition"
+      type="submit"
+     >
+      Send Message
+     </button>
+    </div>
+   </form>
+   <p
+    id="form-status"
+    class="mt-4 text-center font-semibold hidden"
+   ></p>
+  </section>
+
+  <footer
+   class="bg-white bg-opacity-20 backdrop-blur-md text-white text-center font-semibold text-lg py-6 select-none"
+  >
+   © 2024 Team Jaba. All rights reserved.
+  </footer>
+
+  <script>
+   const adsContainer = document.getElementById("ads-container");
+   const ads = adsContainer.children;
+   const adCount = ads.length;
+   let currentIndex = 0;
+
+   function getAdWidth() {
+    const style = getComputedStyle(ads[0]);
+    const marginRight = parseInt(style.marginRight) || 0;
+    return ads[0].offsetWidth + marginRight;
+   }
+
+   let adWidth = getAdWidth();
+
+   function slideAds() {
+    currentIndex++;
+    if (currentIndex >= adCount) {
+     currentIndex = 0;
+    }
+    adsContainer.style.transform = `translateX(-${currentIndex * adWidth}px)`;
+   }
+
+   let slideInterval = setInterval(slideAds, 3000);
+
+   // Pause on hover
+   adsContainer.addEventListener("mouseenter", () => {
+    clearInterval(slideInterval);
+   });
+   adsContainer.addEventListener("mouseleave", () => {
+    slideInterval = setInterval(slideAds, 3000);
+   });
+
+   // Update adWidth on resize
+   window.addEventListener("resize", () => {
+    adWidth = getAdWidth();
+   });
+
+   // Contact form submission with AJAX
+   const form = document.getElementById("contact-form");
+   const status = document.getElementById("form-status");
+
+   form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    status.classList.remove("text-green-600", "text-red-600");
+    status.classList.add("text-white");
+    status.textContent = "Sending...";
+    status.classList.remove("hidden");
+
+    const formData = new FormData(form);
+
+    try {
+     const response = await fetch(form.action, {
+      method: form.method,
+      headers: {
+       Accept: "application/json",
+      },
+      body: formData,
+     });
+
+     if (response.ok) {
+      status.textContent = "Thank you! Your message has been sent.";
+      status.classList.remove("text-white");
+      status.classList.add("text-green-600");
+      form.reset();
+     } else {
+      const data = await response.json();
+      if (data.errors) {
+       status.textContent = data.errors.map((error) => error.message).join(", ");
+      } else {
+       status.textContent = "Oops! There was a problem submitting your form.";
+      }
+      status.classList.remove("text-white");
+      status.classList.add("text-red-600");
+     }
+    } catch (error) {
+     status.textContent = "Oops! There was a problem submitting your form.";
+     status.classList.remove("text-white");
+     status.classList.add("text-red-600");
+    }
+   });
+  </script>
+ </body>
+</html>
